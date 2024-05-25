@@ -14,7 +14,7 @@ System.out.println("Good luck");
 
 int randomNumber =Num.nextInt(100) + 1;
 
-//System.out.println("Random number is" + randomNumber);
+
 
 for (int i=0; i<5; i++)// limit of attemp
  {
@@ -46,16 +46,13 @@ System.out.println("If yes type true");
 System.out.println("If No type false");
 boolean bn = scanner.nextBoolean();  
 if (bn ==  true){
-    Random Nu = new Random(); // here Num is object of Random class 
+    Random Num2 = new Random(); // here Num2 is object of Random class 
 
-Scanner scan = new Scanner(System.in);// here scanner is object of of Scanner class
+Scanner scan = new Scanner(System.in);// Here scan is object of of Scanner class
 System.out.println("welcome to Guess Number Game");
 System.out.println("You have maximum 5 Attemp Limit");
 
 int randomNum = Nu.nextInt(100) + 1;// RandomNumber range between 0 to 100
-
-//System.out.println("Random number is" + randomNumber);
-
 for (int i=0; i<5; i++)// limit of attemp
  {
 
